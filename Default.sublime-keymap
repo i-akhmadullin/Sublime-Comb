@@ -1,0 +1,4 @@
+[
+ 	{ "keys": ["ctrl+shift+alt+f6"], "command": "css_comb" },
+ 	{ "keys": ["ctrl+shift+alt+f7"], "command": "css_comb_new_config" }
+]
