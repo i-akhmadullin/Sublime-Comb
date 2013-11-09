@@ -4,7 +4,7 @@
         "node_modules/**"
     ],
     "always-semicolon": true,
-    "block-indent": 15,
+    "block-indent": true,
     "colon-space": true,
     "color-case": "lower",
     "color-shorthand": true,
@@ -14,9 +14,9 @@
     "leading-zero": false,
     "remove-empty-rulesets": true,
     "rule-indent": true,
-    "stick-brace": true,
-    "strip-spaces": 10,
-    "unitless-zero": false,
+    "stick-brace": 3,
+    "strip-spaces": true,
+    "unitless-zero": true,
     "sort-order": [
         [
             "font",

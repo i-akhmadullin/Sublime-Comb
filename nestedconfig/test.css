@@ -1,0 +1,749 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+    v2.0 | 20110126
+    License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video   {
+    font: inherit;
+    font-size: 100%;
+
+    margin: 0;
+    padding: 0;
+
+    vertical-align: baseline;
+
+    border: 0;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section   {
+    display: block;
+}
+body   {
+    line-height: 1;
+
+    overflow-y: scroll;
+}
+ol, ul   {
+    list-style: none;
+}
+blockquote, q   {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after   {
+    content: '';
+    content: none;
+}
+table   {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+
+p,
+ul,
+ol,
+dl,
+table,
+h2,
+h3,
+h4,
+h5,
+h6   {
+    margin-bottom: 1em;
+}
+
+
+a,
+.pseudo-link   {
+    color: green;
+}
+a:hover,
+.pseudo-link:hover   {
+    cursor: pointer;
+    cursor: hand;
+
+    color: #00b800;
+}
+
+.pseudo-link   {
+    border-bottom: 1px dotted;
+}
+
+
+abbr   {
+    cursor: help;
+
+    border-bottom: 1px dotted silver;
+}
+
+
+body   {
+    font: 14px/1.333 Arial,sans-serif;
+
+    padding: 10px;
+
+    color: #594a42;
+    background: #ccc;
+}
+
+.page-wrap   {
+    max-width: 960px;
+    margin: 0 auto;
+}
+.page   {
+    clear: both;
+
+    padding: 10px 20px;
+
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+.page p,
+            .page ul,
+            .page ol   {
+    margin-left: 30px;
+}
+.page ul   {
+    list-style: disc;
+}
+.page ol   {
+    list-style: decimal;
+}
+.page-header   {
+    float: left;
+
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.clear   {
+    clear: both;
+}
+
+.nowrap   {
+    white-space: nowrap;
+}
+
+.logo   {
+    font-size: 1.2em;
+    font-weight: bold;
+
+    float: left;
+
+    margin-top: 12px;
+    margin-left: 20px;
+}
+.logo a,
+    .logo b   {
+    text-decoration: none;
+
+    color: #666;
+    text-shadow: 0 1px 1px #fff;
+}
+nav   {
+    float: right;
+
+    margin-right: 10px;
+}
+nav ul li   {
+    float: left;
+
+    margin-left: 20px;
+}
+nav ul li a,
+        nav ul li b   {
+    display: block;
+
+    margin: 4px 0;
+    padding: 6px 10px;
+
+    color: #666;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px #eee;
+}
+nav ul li b   {
+    text-decoration: none;
+
+    color: #eee;
+    background: #c57733;
+    background: -moz-linear-gradient(0% 100% 90deg, #c57733, #a1612a);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#c57733), to(#a1612a));
+    text-shadow: 0 1px 1px #666;
+}
+nav ul li a:hover   {
+    color: #000;
+}
+
+
+hgroup   {
+    font: 2em Arial,sans-serif;
+
+    clear: both;
+
+    margin-top: 10px;
+    padding: 10px 20px;
+
+    color: #594a42;
+    border-bottom: 1px solid #e9e9e9;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    background: rgba(255,255,255,.75);
+    text-shadow: 0 1px 1px #fff;
+}
+.index hgroup   {
+    background: #fff;
+}
+hgroup h1   {
+    float: left;
+}
+.index hgroup h1   {
+    padding: 5px 0;
+}
+hgroup p   {
+    font-size: 13px;
+    font-weight: normal;
+
+    float: right;
+
+    margin: 8px 0 8px;
+
+    color: #777;
+}
+hgroup p span   {
+    border-bottom: 1px dotted;
+}
+
+h2   {
+    font: bold 1em Arial, sans-serif;
+
+    clear: both;
+
+    margin-bottom: .75em;
+}
+
+p + h2,
+ul + h2,
+ol + h2,
+dl + h2,
+table + h2   {
+    margin-top: 2em;
+}
+
+.index .about ul li   {
+    display: block;
+
+    padding: 10px 0;
+
+    border-bottom: 1px solid #eee;
+}
+
+
+.splash   {
+    position: relative;
+
+    height: 400px;
+    margin: -10px -20px 20px;
+
+    border-bottom: 1px solid #e5e5e5;
+    background: #fffdf0 url(/static/i/csscomb-splash.png) center no-repeat;
+}
+
+.twitter-share-button   {
+    font-size: 11px;
+
+    position: absolute;
+    right: 20px;
+    bottom: 25px;
+}
+
+
+.code   {
+    float: left;
+    overflow: auto;
+
+    width: 100%;
+    height: 440px;
+
+    border: 1px solid silver;
+}
+.code table   {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0;
+}
+.code table td   {
+    height: 100%;
+
+    vertical-align: top;
+}
+.code textarea   {
+    width: 100%;
+    height: 100%;
+
+    resize: none;
+
+    border: 0;
+}
+
+.h-code-original,
+            .h-code-resorted   {
+    width: 50%;
+    padding-left: 10px;
+}
+
+
+.code-actions,
+        .code-view-mode   {
+    clear: both;
+
+    padding: 0 0 10px;
+}
+.code-actions a,
+            .code-view-mode a   {
+    text-decoration: none;
+
+    border-bottom: 1px dotted;
+}
+
+.code-actions   {
+    padding-top: 10px;
+}
+
+.code-view-mode   {
+    float: left;
+}
+.code-view-mode a   {
+    margin-right: 20px;
+}
+.code-view-mode a.selected   {
+    cursor: default;
+
+    color: silver;
+    border-bottom: none;
+}
+
+.settings-link   {
+    float: right;
+
+    padding: 0 0 10px;
+}
+
+.edit-mode .code-line-numbers-original,
+        .edit-mode .code-line-numbers-resorted   {
+    display: none;
+}
+
+.code-line-numbers-original div,
+        .code-line-numbers-resorted div   {
+    padding-right: 5px;
+
+    background: #f5f5f5;
+}
+.code-line-numbers-original span,
+        .code-line-numbers-resorted span   {
+    font: 12px/20px Consolas, monospace;
+
+    display: block;
+
+    padding-left: 10px;
+
+    text-align: right;
+
+    color: #b3a9a7;
+}
+
+
+        /* Code Block */
+pre   {
+    clear: both;
+
+    padding: 0 3px;
+}
+pre,
+        textarea   {
+    white-space: -moz-pre-wrap; /* Firefox 1.0-2.0 */
+            /*white-space:pre-wrap;*//* current browsers, bug of formatting: do not set in normal! */
+    white-space: pre-wrap;
+    word-wrap: break-word;      /* IE 5.5-7 */
+
+    color: #533d3a;
+}
+textarea   {
+    padding: 0;
+
+    resize: vertical;
+
+    outline: 0;
+}
+pre code   {
+    display: block;
+
+    padding: 0;
+
+    white-space: pre-wrap;
+}
+
+#resort-button   {
+    font-weight: bold;
+
+    margin-right: 20px;
+}
+#copy-result-button[disabled]   {
+    cursor: default;
+
+    color: silver!important;
+    border: 0;
+}
+kbd   {
+    font-size: 10px;
+
+    padding-right: 40px;
+}
+
+pre,
+code,
+textarea   {
+    font: 12px/20px Consolas, monospace;
+}
+
+
+textarea,
+.code   {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -khtml-border-radius: 3px;
+}
+
+
+
+.page-footer   {
+    font-size: .8em;
+
+    padding: 5px 20px 30px;
+
+    color: #777;
+}
+.page-footer,
+    .page-footer a   {
+    color: gray;
+}
+.page-footer a,
+    .page-footer span   {
+    display: inline-block;
+
+    margin-right: 10px;
+    padding: 10px 5px;
+}
+.page-footer a   {
+    text-decoration: underline;
+}
+.page-footer span   {
+    padding-left: 0;
+}
+.page-footer a:hover   {
+    color: green;
+}
+#bug-report:hover   {
+    color: red;
+}
+
+
+.button   {
+    font-weight: bold;
+    line-height: 1;
+
+    padding: 8px 25px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #594a42;
+    border: 1px solid #ccc;
+    border-bottom: 1px solid #bbb;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#eee), to(#ccc));
+    background: #eee;
+    background: -moz-linear-gradient(0% 100% 90deg, #ccc, #eee);
+    text-shadow: 0 1px 0 #fff;
+}
+
+.button:hover   {
+    cursor: pointer;
+
+    border: 1px solid #bbb;
+    border-bottom: 1px solid #999;
+    background: #ddd;
+    background: -moz-linear-gradient(0% 100% 90deg, #bbb, #ddd);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#ddd), to(#bbb));
+    text-shadow: 0 1px 0 #ddd;
+}
+
+.button:active   {
+    border: 1px solid #aaa;
+    border-bottom: 1px solid #888;
+    -webkit-box-shadow: inset 0 0 5px 2px #aaa, 0 1px 0 0 #eee;
+    -moz-box-shadow: inset 0 0 5px 2px #aaa, 0 1px 0 0 #eee;
+    box-shadow: inset 0 0 5px 2px #aaa, 0 1px 0 0 #eee;
+}
+
+.code-actions .disabled,
+.code-actions .disabled:hover,
+.code-actions .disabled:active   {
+    cursor: default;
+
+    color: #999;
+    border: 1px solid #ccc;
+    border-bottom: 1px solid #bbb;
+    background: #eee;
+    background: -moz-linear-gradient(0% 100% 90deg, #ccc, #eee);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#eee), to(#ccc));
+    text-shadow: 0 1px 0 #fff;
+}
+
+
+.index .versions   {
+    width: 460px;
+}
+.index .feature   {
+    width: 438px;
+    padding-left: 20px;
+
+    border-left: 2px dotted #f5f5f5;
+}
+
+.index .versions,
+.index .feature,
+.index .updates,
+.index .video   {
+    float: left;
+}
+
+
+.index .updates,
+.index .video   {
+    width: 280px;
+    margin-top: 30px;
+}
+
+.updates   {
+    width: 585px;
+    min-width: 585px;
+    margin-right: 25px;
+}
+.updates time a   {
+    text-decoration: none;
+
+    color: silver;
+}
+.updates ul   {
+    font-size: 12px;
+
+    margin-left: 0;
+
+    list-style: none;
+}
+.updates ul li   {
+    margin-left: 0;
+}
+.updates ul li time   {
+    font-size: 10px;
+
+    display: block;
+
+    margin-top: 3px;
+
+    color: gray;
+}
+
+
+.index .page ul li   {
+    margin: 1em 0;
+}
+
+.index .page .about-block strong   {
+    display: block;
+}
+.index .page .about-block span   {
+    font-size: .85em;
+
+    display: block;
+
+    margin-top: 2px;
+
+    color: #999;
+}
+
+
+
+.settings-bar   {
+    position: fixed;
+    top: 0;
+    right: -400px;
+    bottom: 0;
+
+    width: 380px;
+    margin-left: 0;
+    padding: 10px;
+
+    -webkit-transition: right .2s linear;
+    -moz-transition: right .2s linear;
+    -o-transition: right .2s linear;
+    transition: right .2s linear;
+
+    background: #fff;
+    -webkit-box-shadow: 0 0 5px 2px #aaa;
+    -moz-box-shadow: 0 0 5px 2px #aaa;
+    box-shadow: 0 0 5px 2px #aaa;
+}
+.settings-bar__hovered   {
+    right: -390px;
+}
+.settings-bar p   {
+    font-size: .8em;
+
+    margin-left: 0;
+}
+.settings-bar button   {
+    margin-bottom: 10px;
+}
+.settings-bar textarea   {
+    width: 98%;
+    height: 600px;
+    padding: 0 3px;
+
+    resize: vertical;
+
+    border: 1px solid silver;
+}
+.settings-bar .hide,
+    .settings-bar .hide:hover   {
+    display: block;
+
+    margin-bottom: 10px;
+
+    cursor: pointer;
+}
+.settings-bar .hide kbd   {
+    margin-left: 10px;
+}
+
+.settings-bar .preset   {
+    margin-left: 10px;
+
+    border-bottom: 1px dotted;
+}
+.settings-bar .preset:hover   {
+    cursor: pointer;
+
+    color: green;
+}
+
+
+
+
+.popup   {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+
+    width: 360px;
+    margin-top: -200px;
+    margin-left: -200px;
+
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -khtml-border-radius: 6px;
+}
+.popup-header   {
+    position: relative;
+    top: 1px;
+
+    padding: 12px 10px 10px;
+
+    color: #594a42;
+    color: #eee;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    background: rgba(0,0,0,.5);
+    text-shadow: 0 1px 1px #fff;
+    text-shadow: 0 0 0 #000;
+}
+.popup-title   {
+    font: bold 18px/1 Arial, sans-serif;
+
+    margin: 0;
+}
+.popup-close   {
+    font-size: 10px;
+
+    position: absolute;
+    top: 17px;
+    right: -29px;
+
+    cursor: pointer;
+}
+.popup-content   {
+    position: relative;
+    z-index: 20;
+
+    clear: both;
+
+    padding: 10px;
+
+    border: 1px solid #ccc;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    background: #fff;
+}
+.popup-header,
+    .popup-content   {
+    -webkit-box-shadow: 0 2px 5px 0 #d5d5d5;
+    -moz-box-shadow: 0 2px 5px 0 #d5d5d5;
+    box-shadow: 0 2px 5px 0 #d5d5d5;
+}
+
+
+.popup   {
+    display: none;
+}
+#shortcutsSheet table   {
+    width: 100%;
+}
+#shortcutsSheet th   {
+    font-size: .8em;
+
+    width: 50%;
+    padding-right: 20px;
+    padding-bottom: 5px;
+
+    text-align: left;
+}
+
+
+#copy-result-textarea   {
+    width: 336px;
+    padding: 1px;
+
+    resize: none;
+
+    border: 1px solid silver;
+}

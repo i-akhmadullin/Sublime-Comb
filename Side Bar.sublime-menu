@@ -1,0 +1,49 @@
+[
+    {
+        "caption": "CSScomb.js",
+        "children":
+        [
+            {
+                "caption": "Sort file",
+                "command": "css_comb",
+            },
+            {
+                "caption": "-"
+            },
+            {
+                "caption": "Start new config",
+                "command": "css_comb_new_config"
+            },
+            {
+                "caption": "-"
+            },
+            {
+                "caption": "Settings",
+                "children": [
+                    {
+                        "command": "open_file",
+                        "args": {
+                            "file": "${packages}/Sublime-Comb/README.md"
+                        },
+                        "caption": "README"
+                    },
+                    { "caption": "-" },
+                    {
+                        "command": "open_file",
+                        "args": {
+                            "file": "${packages}/Sublime-Comb/Default.sublime-keymap"
+                        },
+                        "caption": "Key Bindings – Default"
+                    },
+                    {
+                        "command": "open_file",
+                        "args": {
+                            "file": "${packages}/User/Sublime-Comb.sublime-keymap"
+                        },
+                        "caption": "Key Bindings – User"
+                    }
+                ]
+            }
+        ]
+    }
+]

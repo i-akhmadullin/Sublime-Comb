@@ -1,0 +1,20 @@
+Sublime-CSSComb
+=============
+
+Sublime-CSSComb is a plugin that helps you easily format css, scss files with csscomb.js. ....
+
+
+Plugin searches for .csscomb.json file in these places:
+
+1. Sublime project settings:
+    `"csscomb": { "config": "~/Sites/.csscomb.json" },`
+2. Opened folders (starting from project root ?).
+3. Config shipped with npm package 
+
+
+For more information:
+---------------------
+Read the documentation:
+
+* Online - https://github.com/csscomb/Sublime-CSSComb
+* Sublime Text - Select Preferences->Package Settings->SublimeLinter->READ

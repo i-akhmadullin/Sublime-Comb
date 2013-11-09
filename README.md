@@ -1,5 +1,11 @@
-csscomb.js sublime plugin
+csscomb.js sublime text plugin
 
-dev keys  
-`ctrl+shift+alt+f6` - sort with csscomb.js  
-`ctrl+shift+alt+f7` - create .csscomb.json config
+tmp keys
+`ctrl+shift+alt+c` - sort with csscomb.js
+`ctrl+shift+alt+super+c` - create .csscomb.json config
+
+##Installation
+
+##Config for sorting
+
+##License
